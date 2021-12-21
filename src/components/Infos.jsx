@@ -3,5 +3,3 @@ export function Infos(props) {
         <span> {props.dado} </ span>
     )
 }
-
-const a = a;
