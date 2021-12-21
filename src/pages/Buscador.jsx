@@ -54,7 +54,7 @@ export function Buscador() {
                     <h2>CEP: {cep.cep} </h2>
                     <Infos dado={cep.logradouro} />
                     <Infos dado={cep.bairro} />
-                    <Infos dado={cep.localidade + " - " + cep.localidade} />
+                    <Infos dado={cep.localidade + " - " + cep.uf} />
                 </main>
             )}
         </div >
